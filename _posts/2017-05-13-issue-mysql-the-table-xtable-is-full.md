@@ -14,7 +14,8 @@ tags: mysql issue
 内存表，所使用的内存大小限制由[max_heap_table_size](http://dev.mysql.com/doc/refman/5.1/en/server-system-variables.html#sysvar_max_heap_table_size)确定。
 
 查询数值设定如下，如果没有设定过，这里显示的应该是默认数值：
-```mysql
+
+```js
 mysql> show variables like 'max_heap_table_size';
 +---------------------+----------+
 | Variable_name       | Value    |
