@@ -15,7 +15,7 @@ tags: mysql issue
 
 查询数值设定如下，如果没有设定过，这里显示的应该是默认数值：
 
-```js
+```shell
 mysql> show variables like 'max_heap_table_size';
 +---------------------+----------+
 | Variable_name       | Value    |
@@ -26,7 +26,7 @@ mysql> show variables like 'max_heap_table_size';
 ```
 
 修改数值：
-```mysql
+```shell
 mysql> set  max_heap_table_size=268435456;
 Query OK, 0 rows affected (0.00 sec)
 mysql> show variables like 'max_heap_table_size';
@@ -39,7 +39,7 @@ mysql> show variables like 'max_heap_table_size';
 ```
 
 `max_heap_table_size`可以动态修改，但对已存在的表无效，通过`alert table`重整表空间。
-```mysql
+```shell
 mysql> alter table logininfo ENGINE=MEMORY;
 Query OK, 1000 rows affected (0.06 sec)
 Records: 1000  Duplicates: 0  Warnings: 0
