@@ -312,7 +312,9 @@ tags: Golang
     ```go
     struct{ bool; float64; int16 }
     struct{ bool; int16; float64 }
-    struct{ float64; int16; bool }
+    ```
+    ```go
+	struct{ float64; int16; bool }
     ```
 
 ## Map
@@ -321,6 +323,7 @@ tags: Golang
 3. 删除元素时无需检测是否存在，key不在map也可删除
 5. 使用struct{}作为标记值，而不是bool或者interface{}，节省内存
     > The struct type with no fields is called the empty struct, written struct{}. It has size zero and carries no information but may be useful nonetheless. Some Go programmers use it instead of bool as the value type of a map that represents a set, to emphasize that only the keys are significant, but the space saving is marginal and the syntax more cumbersome, so we generally avoid it.Go lets us declare a field with a type but no name; such fields are called anonymous fields. The type of the field must be a named type or a pointer to a named type. —— [The Go Programming Language](http://www.gopl.io/)
+
     ```go
     // UniqStr returns a copy if the passed slice with only unique string results.
     func UniqStr(col []string) []string {
