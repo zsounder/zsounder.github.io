@@ -233,6 +233,7 @@ tags: Golang
       }
     }
     ```
+
 ## 函数
 1. 不要结巴，~~bytes.ByteBuffer~~ `bytes.Buffer`。
 2. 函数采用命名的多值返回，便于理解，传入变量和返回变量以小写字母开头。
