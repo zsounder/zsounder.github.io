@@ -246,18 +246,18 @@ tags: Golang
 	- 后进先出
 	- 执行return -> 写入返回值  -> 执行defer -> 函数携带返回值退出
 	- defer参数的求值在defer声明时(非执行时)
-    ```go
-    package main
+	    ```go
+	    package main
 
-    import "fmt"
+	    import "fmt"
 
-    func main() {
-      var i int = 1
-      defer fmt.Println("result =>", func() int { return i * 2 }())
-      i++
-      //prints: result => 2 (not ok if you expected 4)
-    }
-    ```
+	    func main() {
+	      var i int = 1
+	      defer fmt.Println("result =>", func() int { return i * 2 }())
+	      i++
+	      //prints: result => 2 (not ok if you expected 4)
+	    }
+	    ```
 
 ## init函数
 1.  init函数只完成以下功能
