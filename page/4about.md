@@ -10,7 +10,6 @@ type: page
 {:toc}
 
 ## About Me
-
 A Coder. Explore, Solve problems.
 
 {% include comments.html %}
