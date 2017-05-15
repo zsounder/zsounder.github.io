@@ -32,10 +32,6 @@ void two_local_variable_info();
 const std::type_info& one_get_type_info_TestClass();
 const std::type_info& two_get_type_info_TestClass();
 
-
-void one_pass_TestClass(TestClass * t);
-void two_pass_TestClass(TestClass * t);
-
 // one.cpp
 #include "inc.h"
 
