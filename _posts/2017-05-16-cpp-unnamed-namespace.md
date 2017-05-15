@@ -1,4 +1,4 @@
-unnamed namespace,不具名命名空间或者说匿名空间,Google C++ Style中有如下说明：
+sf上有朋友问题了unnamed namespace的问题,unnamed namespace，不具名命名空间或者说匿名空间,Google C++ Style中有如下说明：
 > Unnamed Namespaces
   Unnamed namespaces are allowed and even encouraged in .cc files, to avoid runtime naming conflicts.
   Do not use unnamed namespaces in .h files.
