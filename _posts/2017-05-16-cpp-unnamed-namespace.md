@@ -13,11 +13,11 @@ unnamed namespace，不具名命名空间或者说匿名空间,Google C++ Style�
   }  // namespace
   ```
   
-  
+
 unnamed namespace可以在某个给定的文件内不连续，但是不能跨越多个文件。也就是说，未命名的命名空间仅在特定的文件内部有效，其作用范围不会横跨多个不同文件。
 
-  ```c++
-  //inc.php
+```c++
+//inc.php
 #pragma once
 #include <iostream>
 #include <typeinfo>
