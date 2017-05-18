@@ -1,9 +1,18 @@
 ---
 layout: post
-title:  "Golang Coding Guidelines"
-date:   2017-05-13 15:14:54
+title: Golang Coding Guidelines
+date: 2017-05-13T15:14:54.000Z
 categories: Golang
 tags: Golang
+comments:
+  - author:
+      type: full
+      displayName: zsounder
+      url: 'https://github.com/zsounder'
+      picture: 'https://avatars2.githubusercontent.com/u/19310233?v=3&s=73'
+    content: test
+    date: 2017-05-18T06:09:19.939Z
+
 ---
 
 * content
