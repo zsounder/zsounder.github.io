@@ -15,7 +15,6 @@
       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(commentit);
   })();
 </script>
-
 {%if page.comments %}
   {% assign sorted_comments = (page.comments | sort: 'date') %}
 {% endif %}
