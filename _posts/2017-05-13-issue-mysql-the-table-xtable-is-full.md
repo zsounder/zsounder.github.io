@@ -1,9 +1,25 @@
 ---
 layout: post
-title:  "Fix mysql memory table error:  table xxxx is full"
-date:   2017-05-13 23:14:54
+title: 'Fix mysql memory table error:  table xxxx is full'
+date: 2017-05-13T23:14:54.000Z
 categories: mysql
 tags: mysql issue
+comments:
+  - author:
+      type: full
+      displayName: zsounder
+      url: 'https://github.com/zsounder'
+      picture: 'https://avatars2.githubusercontent.com/u/19310233?v=3&s=73'
+    content: test
+    date: 2017-05-18T06:09:06.086Z
+  - author:
+      type: full
+      displayName: zsounder
+      url: 'https://github.com/zsounder'
+      picture: 'https://avatars2.githubusercontent.com/u/19310233?v=3&s=73'
+    content: test
+    date: 2017-05-18T06:13:12.275Z
+
 ---
 
 * content
