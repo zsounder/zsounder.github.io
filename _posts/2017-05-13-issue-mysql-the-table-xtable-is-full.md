@@ -12,6 +12,13 @@ comments:
       picture: 'https://avatars2.githubusercontent.com/u/19310233?v=3&s=73'
     content: test
     date: 2017-05-18T06:09:06.086Z
+  - author:
+      type: full
+      displayName: zsounder
+      url: 'https://github.com/zsounder'
+      picture: 'https://avatars2.githubusercontent.com/u/19310233?v=3&s=73'
+    content: test
+    date: 2017-05-18T06:13:12.275Z
 
 ---
 
